@@ -37,3 +37,19 @@ footer {
   text-align: center;
   font-family: "Sarina", cursive;
 }
+
+@media only screen and (max-width: 390px) {
+  h1 {
+    font-size: 60px;
+    margin: 5px;
+  }
+  .container {
+    width: 90%;
+  }
+  img {
+    width: 40%;
+  }
+  p {
+    font-size: 25px;
+  }
+}
